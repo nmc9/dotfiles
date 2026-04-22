@@ -1,0 +1,5 @@
+#!/usr/bin/env bash "$HOME/.oh-my-zsh"
+
+git clone https://github.com/ohmyzsh/ohmyzsh.git "$HOME/.oh-my-zsh"
+
+ln -sfv $PWD/.zshrc $HOME/.zshrc
