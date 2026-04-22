@@ -3,3 +3,5 @@
 git clone https://github.com/ohmyzsh/ohmyzsh.git "$HOME/.oh-my-zsh"
 
 ln -sfv $PWD/.zshrc $HOME/.zshrc
+ln -sfv $PWD/.vimrc $HOME/.vimrc
+
