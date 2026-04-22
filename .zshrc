@@ -6,6 +6,7 @@ export ZSH="$HOME/.oh-my-zsh"
 export EDITOR="vim"
 
 ## SmartWaiver configuration
+[[ -f "$HOME/.config/private" ]] && source "$HOME/.config/private"
 export SW=$HOME/Documents/code/sw-env
 source $SW/.bash_aliases
 
